@@ -1,0 +1,565 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pos",
+				"pos-a\tposition: absolute;"
+			],
+			[
+				"tt",
+				"tt\ttext-transform: ${1:uppercase};"
+			],
+			[
+				"po",
+				"pos-a\tposition: absolute;"
+			],
+			[
+				"f",
+				"ff-tv\t _blanka-helpers.scss"
+			],
+			[
+				"d",
+				"d-b\t _blanka-helpers.scss"
+			],
+			[
+				"c-t",
+				"c-t-l\t _color.scss"
+			],
+			[
+				"fw",
+				"fw-b\tfont-weight: bold;"
+			],
+			[
+				"space",
+				"space-between"
+			],
+			[
+				"alig",
+				"align-content"
+			],
+			[
+				"bg-c",
+				"bgc-t\tbackground-color: transparent;"
+			],
+			[
+				"cur",
+				"cur-d\tcursor: default;"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "battleship.js",
+			"settings":
+			{
+				"buffer_size": 702,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 112.0,
+		"last_filter": "instal",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/jirka/Desktop/battleshipjs"
+	],
+	"file_history":
+	[
+		"/home/jirka/Desktop/battleshipjs/battleship.js",
+		"/home/jirka/projekty/patternlab-refaktoring/patternlab-refactoring.sublime-project",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/04-templates/blanka@inprogress.mustache",
+		"/home/jirka/projekty/patternlab-refaktoring/gulp/svg.js",
+		"/home/jirka/projekty/patternlab-refaktoring/gulp/templates.js",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_meta/_00-head.mustache",
+		"/home/jirka/projekty/patternlab-refaktoring/public/js/01-molecules/article-video/article-video-toggle.js",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/01-molecules/article-video/article-video-toggle.js",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/00-atoms/icon/svg/_search.mustache",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/04-templates/article/article.json",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/00-atoms/label-value/icon-label-value.mustache",
+		"/home/jirka/projekty/patternlab-refaktoring/config/listeners.json",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/01-molecules/buttons/button~spinner.json",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/04-templates/article/article.mustache",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/01-molecules/article-meta/article-meta@inreview.mustache",
+		"/home/jirka/projekty/patternlab-refaktoring/source/css/base.scss",
+		"/home/jirka/projekty/patternlab-refaktoring/public/images/svg-icons/calendar.svg",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/01-molecules/article-video/article-video.scss",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/01-molecules/article-video/article-video-toggle.json",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/01-molecules/article-video/article-video-toggle@inreview.mustache",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/00-atoms/icon/svg/_calendar.mustache",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/01-molecules/article-video/article-video.mustache",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/00-atoms/icon/icon@inprogress.mustache",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/01-molecules/flash/flash@inreview.mustache",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/99-Styleguide/icons/icons.mustache",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/00-atoms/icon/_icon.scss",
+		"/home/jirka/Desktop/battleshipjs/battleship.html",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/99-Styleguide/icons/icons.scss",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/01-molecules/buttons/button.json",
+		"/home/jirka/projekty/patternlab-ct24/patterns/01-molecules/00-article/video/video.js",
+		"/home/jirka/projekty/modely/modely/wp-content/themes/modely/src/styles/style.scss",
+		"/home/jirka/projekty/modely/modely/wp-content/themes/modely/src/styles/_variables.scss",
+		"/home/jirka/projekty/modely/modely/wp-content/themes/modely/src/styles/_footer.scss",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/01-molecules/gallery/gallery.scss",
+		"/home/jirka/projekty/patternlab-refaktoring/public/css/button2.css",
+		"/home/jirka/projekty/patternlab-refaktoring/public/css/button.css",
+		"/home/jirka/projekty/ct24-release/www/sites/all/themes/custom/ct24/patternlab/patterns/01-molecules/00-article/quote/quote.scss",
+		"/home/jirka/projekty/ct24-release/www/sites/all/themes/custom/ct24/patternlab/patterns/01-molecules/00-article/link/link_tema_volby2017.mustache",
+		"/home/jirka/projekty/ct24-release/www/sites/all/themes/custom/ct24/patternlab/patterns/04-pages/event/event.scss",
+		"/home/jirka/projekty/ct24-release/www/sites/all/themes/custom/ct24/patternlab/patterns/02-organisms/event/event_labellist.json",
+		"/home/jirka/projekty/ct24-release/www/sites/all/themes/custom/ct24/patternlab/patterns/04-pages/event/event_volby2017.hbs",
+		"/home/jirka/projekty/ct24-release/www/sites/all/themes/custom/ct24/patternlab/patterns/02-organisms/event/event_mainarticle.scss",
+		"/home/jirka/projekty/ct24-release/www/sites/all/themes/custom/ct24/patternlab/patterns/02-organisms/event/event_mainarticle.json",
+		"/home/jirka/projekty/ct24-release/www/sites/all/themes/custom/ct24/patternlab/styles/mixins.scss",
+		"/home/jirka/projekty/ct24-release/www/sites/all/themes/custom/ct24/patternlab/patterns/00-atoms/00-global/label/label.scss",
+		"/home/jirka/projekty/ct24-release/www/sites/all/themes/custom/ct24/patternlab/patterns/02-organisms/event/event_taglist.hbs",
+		"/home/jirka/projekty/gulpgfile-sj/assets/templates/index.twig",
+		"/home/jirka/projekty/gulpgfile-sj/assets/templates/offer-list.twig",
+		"/home/jirka/projekty/gulpgfile-sj/assets/scss/components/_offers.scss",
+		"/home/jirka/.config/sublime-text-3/Packages/ColorPicker/ColorPicker.sublime-settings",
+		"/home/jirka/projekty/gulpgfile-sj/assets/templates/talents-list.twig",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/01-molecules/buttons/button@inreview.mustache",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/99-Styleguide/icons/icons.json",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/01-molecules/poll/poll.mustache",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/01-molecules/buttons/button~icon.json",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/00-atoms/00-typography/_heading.scss",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/01-molecules/article-labels/article-labels.mustache",
+		"/home/jirka/projekty/patternlab-refaktoring/config.json",
+		"/home/jirka/projekty/patternlab-refaktoring/gulp/browserSync.js",
+		"/home/jirka/projekty/patternlab-refaktoring/gulp/patternlab.js",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/00-atoms/label-value/label-value.mustache",
+		"/home/jirka/projekty/patternlab-refaktoring/source/css/scss/mixins/_breakpoints.scss",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/00-atoms/00-typography/_paragraph.scss",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/01-molecules/flash/flash.scss",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/00-atoms/_atoms.scss",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/01-molecules/flash/_flash.scss",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/00-atoms/image/image.json",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/04-templates/article/article.scss",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/00-atoms/icon/icon.json",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/00-atoms/spinner/spinner@inreview.mustache",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/01-molecules/buttons/button.scss",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/01-molecules/article-meta/article-meta.json",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/00-atoms/spinner/spinner.scss",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/00-atoms/spinner/spinner-secondary@inreview.mustache",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/00-atoms/label-value/label-value-icon.mustache",
+		"/home/jirka/projekty/patternlab-node/edition-node-gulp-master/patternlab-config.json",
+		"/home/jirka/projekty/patternlab-node/edition-node-gulp-master/gulpfile.js",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/01-molecules/buttons/button~state-disabled.json",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/01-molecules/buttons/button~state-disabled-large-text-icon.json",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/01-molecules/buttons/button~secondary-text-icon.json",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/01-molecules/buttons/button~secondary-large-text-icon.json",
+		"/home/jirka/projekty/patternlab-refaktoring/public/css/pattern-scaffolding.css",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/01-molecules/buttons/button~state-spinner-large.json",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/01-molecules/buttons/_button.scss",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/01-molecules/buttons/button~large-text-icon.json",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/01-molecules/buttons/button~large-icon.json",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/01-molecules/buttons/button~state-spinner-secondary.json",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/01-molecules/buttons/button~large-text.json",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/01-molecules/buttons/button~nostyle.json",
+		"/home/jirka/Desktop/patternlab-refaktoring-develop-768b5d3b358a8422e46fbb156c5e3161fcd0a2cd/source/_data/data.json",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/00-atoms/icon/calendar.mustache",
+		"/home/jirka/projekty/patternlab-refaktoring/source/_patterns/01-molecules/flash/flash.json",
+		"/home/jirka/projekty/patternlab-node/edition-node-gulp-master/public/css/style.css",
+		"/home/jirka/projekty/patternlab-node/edition-node-gulp-master/source/css/style.css",
+		"/home/jirka/projekty/patternlab-ct24/patterns/01-molecules/01-homepage/article_link/article_link.hbs",
+		"/home/jirka/projekty/patternlab-ct24/patterns/01-molecules/00-article/link/link_simple.mustache",
+		"/home/jirka/projekty/patternlab-ct24/patterns/01-molecules/00-article/link/link_P.mustache",
+		"/home/jirka/projekty/patternlab-ct24/patterns/01-molecules/00-article/link/link.mustache",
+		"/home/jirka/projekty/patternlab-ct24/patterns/00-atoms/00-global/btn/btn.mustache",
+		"/home/jirka/projekty/patternlab-mstch/source/_patterns/01-molecules/flash/_flash.scss",
+		"/home/jirka/projekty/patternlab-refaktoring/.gitignore",
+		"/home/jirka/projekty/patternlab-mstch/config/config.yml",
+		"/home/jirka/projekty/patternlab-mstch/package.json",
+		"/home/jirka/projekty/patternlab-mstch/public/css/style.css",
+		"/home/jirka/projekty/patternlab-mstch/public/index.html",
+		"/home/jirka/projekty/patternlab-mstch/config/patternengines.json",
+		"/home/jirka/projekty/patternlabrefaktoring/public/index.html",
+		"/home/jirka/projekty/patternlab-mstch/source/css/style.scss",
+		"/home/jirka/projekty/patternlab-mstch/gulp/svg.js",
+		"/home/jirka/projekty/patternlab-mstch/gulp/browserSync.js",
+		"/home/jirka/projekty/patternlab-mstch/gulp/templates.js",
+		"/home/jirka/Desktop/gulp patternlab/assets/templates/index.twig",
+		"/home/jirka/Desktop/gulp patternlab/assets/templates/data.json",
+		"/home/jirka/projekty/patternlab-mstch/gulp/copy.js",
+		"/home/jirka/projekty/patternlab-mstch/gulp/clean.js",
+		"/home/jirka/projekty/patternlabrefaktoring/source/_meta/_00-head.mustache",
+		"/home/jirka/projekty/patternlabrefaktoring/source/_macros/forms.macro.mustache",
+		"/home/jirka/projekty/patternlabrefaktoring/source/_meta/_01-foot.mustache",
+		"/home/jirka/projekty/patternlabrefaktoring/source/css/scss/_blanka-helpers.scss",
+		"/home/jirka/projekty/patternlabrefaktoring/source/_patterns/01-molecules/article-author/_article-author.scss",
+		"/home/jirka/projekty/patternlabrefaktoring/source/_patterns/01-molecules/buttons/_button.scss",
+		"/home/jirka/projekty/patternlabrefaktoring/source/_patterns/01-molecules/buttons/button~large-text.json",
+		"/home/jirka/projekty/patternlabrefaktoring/source/_patterns/01-molecules/article-video/article-video.md",
+		"/home/jirka/projekty/patternlabrefaktoring/source/_patterns/01-molecules/_molecules.scss",
+		"/home/jirka/projekty/patternlabrefaktoring/source/_patterns/01-molecules/article-author/article-author@inreview.twig",
+		"/home/jirka/projekty/patternlabrefaktoring/source/_patterns/00-atoms/link/link.md",
+		"/home/jirka/projekty/patternlabrefaktoring/source/_patterns/01-molecules/flash/flash.json",
+		"/home/jirka/projekty/patternlabrefaktoring/source/_patterns/01-molecules/flash/flash@inreview.twig"
+	],
+	"find":
+	{
+		"height": 21.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"/home/jirka/projekty/patternlabrefaktoring/source/_patterns"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"icon",
+			";\n",
+			"header",
+			"%);\n",
+			"hidden",
+			"=\"\" ",
+			"span",
+			"gradient",
+			"size",
+			"eaf",
+			"5px",
+			"gradient",
+			"family",
+			"backg",
+			"gradien",
+			"__",
+			"focus",
+			"2",
+			"large",
+			"border",
+			"home",
+			"aaasdadassdsdsss",
+			"src",
+			"default",
+			"button__",
+			"}}\n",
+			"spinner",
+			"spinner\n",
+			"css",
+			"appl",
+			"{{label.tag}}",
+			"__text",
+			";\n",
+			"inner",
+			"variables",
+			"$brand-sport",
+			";\n",
+			"brand-sport",
+			"brand-sport-light",
+			"brand-sport-dark",
+			"margin:-",
+			"margin: -",
+			"box-sha",
+			"border",
+			"spinner",
+			"loader",
+			"spinner",
+			"odkaz",
+			":\n",
+			"endif",
+			"icon",
+			"patternlab",
+			"default",
+			"logLevel",
+			"options",
+			"public",
+			"port",
+			"weinre",
+			"port",
+			"ui",
+			"port",
+			"virt",
+			"\t",
+			")",
+			",$",
+			"\t",
+			"  "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$color-brand",
+			"  ",
+			");",
+			", $",
+			"  ",
+			"\t"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "battleship.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 702,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								527,
+								527
+							]
+						],
+						"settings":
+						{
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "<",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										549,
+										550
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										526,
+										527
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "battleshipjs.sublime-project",
+	"replace":
+	{
+		"height": 38.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 391.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
