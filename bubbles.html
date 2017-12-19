@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bubble Factory Test Lab</title>
+        <script>
+            var scores = [60, 50, 60, 58, 54, 54, 58, 50, 52, 54, 48, 69, 34, 55, 51, 52, 44, 51, 69, 64, 66, 55, 52, 61, 46, 31, 57, 52, 44, 18, 41, 53, 55, 61, 51, 44];
+
+            var output;
+            var highScore;
+            var highScorePosition;
+
+            var hsnumbers;
+            var position;
+
+            highScore = 0;
+            hsnumbers = 0;
+            position = 0;
+            highScorePosition = [];
+
+            for (var i = 0; i < scores.length; i++ ) {
+                output = "Bubble solution #" + i + " score: " + scores[i];
+
+                if (scores[i] > highScore) {
+                    highScore = scores[i];
+                };
+
+                console.log(output);
+            }
+
+            for (var i = 0; i <scores.length; i++ ) {
+                if (scores[i] == highScore) {
+                    highScorePosition.push(i);
+                    // console.log (highScorePosition.length)
+                    // hsnumbers = highScorePosition.length;
+                    // console.log (hsnumbers)
+                    // position = hsnumbers + 1;
+                    // highScorePosition[position] = i;
+                    // console.log (position)
+                    // // console.log (highScorePosition)
+
+                }
+            }
+
+            console.log("Bubbles tests: " +  scores.length)
+            console.log("largest score: " +  highScore)
+            console.log("largest score positions: " + highScorePosition)
+        </script>
+    </head>
+    <body></body>
+</html>
+
+
+
