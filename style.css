@@ -1,0 +1,31 @@
+.board {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.board__table {
+}
+
+.board__table td {
+    border: gray 2px solid;
+    width: 2rem;
+    height: 2rem;
+}
+
+.board__table td {
+    border: gray 2px solid;
+}
+
+td:first-child {
+    border: none;
+}
+
+.hit {
+    background-color: green;
+}
+.miss {
+    background-color: red;
+}

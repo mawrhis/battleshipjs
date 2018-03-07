@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="board">
+        <table class="board__table">
+            <thead>
+                <td></td>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>4</th>
+                <th>5</th>
+                <th>6</th>
+                <th>7</th>
+            </thead>
+            <tr>
+                <th scope="row">A</th>
+                <td id="00" class="" ></td><td id="01" class="" ></td><td id="02" class="" ></td><td id="03" class="" ></td><td id="04" class="" ></td><td id="05" class="" ></td><td id="06" class="" ></td>
+            </tr>
+            <tr>
+                <th scope="row">B</th>
+                <td id="10" class="" ></td><td id="11" class="" ></td><td id="12" class="" ></td><td id="13" class="" ></td><td id="14" class="" ></td><td id="15" class="" ></td><td id="16" class="" ></td>
+            </tr>
+            <tr>
+                <th scope="row">C</th>
+                <td id="20" class="" ></td><td id="21" class="" ></td><td id="22" class="" ></td><td id="23" class="" ></td><td id="24" class="" ></td><td id="25" class="hit" ></td><td id="26" class="" ></td>
+            </tr>
+            <tr>
+                <th scope="row">D</th>
+                <td id="30" class="" ></td><td id="31" class="" ></td><td id="32" class="" ></td><td id="33" class="" ></td><td id="34" class="" ></td><td id="35" class="" ></td><td id="36" class="" ></td>
+            </tr>
+            <tr>
+                <th scope="row">E</th>
+                <td id="40" class="" ></td><td id="41" class="" ></td><td id="42" class="" ></td><td id="43" class="" ></td><td id="44" class="" ></td><td id="45" class="" ></td><td id="46" class="" ></td>
+            </tr>
+            <tr>
+                <th scope="row">F</th>
+                <td id="50" class="" ></td><td id="51" class="" ></td><td id="52" class="" ></td><td id="53" class="" ></td><td id="54" class="" ></td><td id="55" class="miss" ></td><td id="56" class="" ></td>
+            </tr>
+            <tr>
+                <th scope="row">G</th>
+                <td id="60" class="" ></td><td id="61" class="" ></td><td id="62" class="" ></td><td id="63" class="" ></td><td id="64" class="" ></td><td id="65" class="" ></td><td id="66" class="" ></td>
+            </tr>
+        </table>
+        <div class="board__interaction"><input type="text" id="guessInput" placeholder="A0" class="board__input"><input type="button" id="fireButton" value="Fire!"></div>
+        <div class="board__output">you missed</div>
+    </div>
+</body>
+</html>
