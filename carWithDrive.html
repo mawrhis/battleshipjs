@@ -6,24 +6,51 @@
     <script>
      var fiat = {
         make: "Fiat",
-        // other properties are here, we're just saving space
+        model: "500",
         started: false,
+        fuel: 0,
 
         start: function() {
-            this.started = true;
+            if (this.fuel > 1) {
+                this.started = true;
+            } else {
+                alert ("The car is on empty, fill up before starting!")
+            }
         },
         stop: function() {
             this.started = false;
         },
         drive: function() {
-            if (this.started) {
-                alert("Zoom zoom!");
+           if (this.started) {
+            if (this.fuel > 0) {
+                alert(this.make + " " + this.model + " goes zoom zoom!");
+                this.fuel = this.fuel - 1;
+                } else {
+                    alert ("Uh oh, out of fuel.");
+                    this.stop();
+                }
             } else {
                 alert("You need to start the engine first.");
             }
+        },
+        addFuel: function(amount) {
+            this.fuel = this.fuel + amount;
         }
     };
 
+fiat.start();
+fiat.drive();
+fiat.addFuel(7);
+fiat.start();
+fiat.drive();
+fiat.drive();
+fiat.drive();
+fiat.drive();
+fiat.drive();
+fiat.drive();
+fiat.drive();
+fiat.drive();
+fiat.drive();
 fiat.drive();
 fiat.start();
 fiat.drive();
