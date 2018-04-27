@@ -1,0 +1,29 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "at-rule-empty-line-before": null,
+    "at-rule-no-unknown": [
+      true, {
+        "ignoreAtRules": 
+          ["if", "else", "mixin", "include", "content", "for", "each"]
+      }
+    ],
+    "block-closing-brace-empty-line-before": null,
+    "color-hex-case": "upper",
+    "declaration-empty-line-before": "never",
+    "indentation": 2,
+    "max-empty-lines": 2,
+    "max-nesting-depth": 3,
+    "no-empty-source": null,
+    "number-leading-zero": "never",
+    "property-no-vendor-prefix": true,
+    "rule-empty-line-before": null,
+    "selector-list-comma-newline-after": null,
+    "selector-max-id": 0,
+    "selector-max-specificity": "0,3,0",
+    "selector-no-vendor-prefix": true,
+    "selector-pseudo-element-colon-notation": "single",
+    "unit-whitelist": ["em", "rem", "%", "px", "vw", "vh", "s", "deg"],
+    "value-no-vendor-prefix": true,
+  }
+}
