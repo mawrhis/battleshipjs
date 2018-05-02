@@ -22,23 +22,28 @@ var model = {
   shipLength: 3,
   shipsSunk: 0,
 
-  ships: [{ locations: ["10", "20", "30"], hits: ["","",""] },
-          { locations: ["32", "33", "34"], hits: ["","",""] },
-          { locations: ["63", "64", "65"], hits: ["","",""] }],
+  ships: [{ locations: ["7", "8", "9"], hits: ["","",""] },
+          { locations: ["11", "18", "25"], hits: ["","",""] },
+          { locations: ["39", "40", "41"], hits: ["","",""] }],
 
   fire: function(guess) {
     for (var i = 0; i < this.numShips; i++) {
-      var ship =this.ships[i];
+      var ship = this.ships[i];
       var index = ship.locations.indexOf(guess); //indexOf(arg) goes through array and finds location (index) of arg
       if (index >= 0) {
         //we have a hit
         ship.hits[index] = "hit";
+        view.displayHit(guess);
+        view.displayMessage("HIT!");
         if (this.isSunk(ship)) {
+          view.displayMessage("You sank my battleship!");
           this.shipsSunk++;
         }
         return true;
       }
     }
+    view.displayMiss(guess);
+    view.displayMessage("You missed.")
     return false
   },
   isSunk: function(ship) {
@@ -50,11 +55,3 @@ var model = {
     return true;
   }
 };
-
-view.displayMiss("00");
-view.displayHit("34");
-view.displayMiss("55");
-view.displayHit("12");
-view.displayMiss("25");
-view.displayHit("26");
-view.displayMessage("Tap tap, is this thing on?");
