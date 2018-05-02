@@ -24,8 +24,8 @@ td:first-child {
 }
 
 .hit {
-    background-color: green;
+    background-color: rgba(0, 255, 0, .5);
 }
 .miss {
-    background-color: red;
+    background-color: rgba(255, 0, 0, .5);
 }
