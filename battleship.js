@@ -22,9 +22,9 @@ var model = {
   shipLength: 3,
   shipsSunk: 0,
 
-  ships: [{ locations: ["7", "8", "9"], hits: ["","",""] },
-          { locations: ["11", "18", "25"], hits: ["","",""] },
-          { locations: ["39", "40", "41"], hits: ["","",""] }],
+  ships: [{ locations: ["01", "02", "03"], hits: ["","",""] },
+          { locations: ["13", "14", "15"], hits: ["","",""] },
+          { locations: ["26", "36", "46"], hits: ["","",""] }],
 
   fire: function(guess) {
     for (var i = 0; i < this.numShips; i++) {
