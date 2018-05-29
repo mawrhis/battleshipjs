@@ -1,3 +1,5 @@
+// view object
+
 var view = {
   displayMessage: function(msg) {
     var messageArea = document.getElementById("messageArea");
@@ -14,7 +16,7 @@ var view = {
 };
 
 
-
+// model object
 
 var model = {
   boardSize: 7,
@@ -55,6 +57,8 @@ var model = {
     return true;
   }
 };
+
+// controller object
 
 var controller = {
   guesses: 0,
