@@ -1,15 +1,15 @@
 // view object
 
 var view = {
-  displayMessage: function(msg) {
+  displayMessage: function(msg) { //method
     var messageArea = document.getElementById("messageArea");
     messageArea.innerHTML = msg;
   },
-  displayHit: function(location) {
+  displayHit: function(location) { //method
     var cell = document.getElementById(location);
     cell.setAttribute("class", "hit");
   },
-  displayMiss: function(location) {
+  displayMiss: function(location) { //method
     var cell = document.getElementById(location);
     cell.setAttribute("class", "miss");
   }
@@ -62,24 +62,41 @@ var model = {
 
 var controller = {
   guesses: 0,
+  gameOver: false,
 
-  processGuess: function(guess) {
+  processGuess: function(guess) { //method
+    var location = parseGuess(guess);
+    if (location) {
+      this.guesses++;
+      var hit = model.fire(location);
+      if (hit && model.shipsSunk === model.numShips) {
+        view.displayMessage("You sank all my battleships, in " + this.guesses + "guesses");
+        this.gameOver = true;
+      }
+
+    }
+
     function parseGuess (guess) {
       var alphabet = ["A", "B", "C", "D", "E", "F", "G"];
 
-      if (guess === null || guess.length !== 2) {
+      if (controller.gameOver === true) {
+        view.displayMessage("Oops, game is over, no more guesses allowed");
+      } else if (guess === null || guess.length !== 2) {
         alert("Oops, please enter a letter and a number on the board.");
       } else {
         firstChar = guess.charAt(0) //grab the first character of guess
         var row = alphabet.indexOf(firstChar);
-        var column = guess.chartAt(1);
+        var column = guess.charAt(1);
 
-        if (isNan(row) || inNaN(column)) {
+        if (isNaN(row) || isNaN(column)) {
           alert("Oops, that isn't on the board.");
         } else if (row < 0 || row >= model.boardSize || column < 0 || column >= model.boardSize) {
           alert ("Oops, that's off the board!");
+        } else {
+          return row + column;
         }
       }
+      return null;
     }
   }
 }
@@ -91,3 +108,4 @@ var controller = {
 // what is NaN - not a number
 // || returns true if either operand is true
 // array - pole
+// null is falsey value - falsey truthy
