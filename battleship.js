@@ -1,6 +1,15 @@
 function init() {
   var fireButton = document.getElementById("fireButton");
+  var guessInput = document.getElementById("guessInput");
+
   fireButton.onclick = handleFireButton;
+
+  guessInput.addEventListener("keypress", function(event) {
+    if (event.keyCode == 13) {
+      event.preventDefault();
+      handleFireButton();
+    }
+  });
 
 }
 
