@@ -79,6 +79,17 @@ var model = {
       }
     }
     return true;
+  },
+
+  //generate ships methods
+  generateShipLocations: function() {
+    var locations;
+    for (var i = 0; i <this.numShips; i++) {
+      do {
+        locations = this.generatShip();
+      } while (this.collision(locations));
+      this.ships[i].locations = locations;
+    }
   }
 };
 
@@ -125,8 +136,11 @@ var controller = {
   }
 }
 
+//TODO
 
-// TODO/docs
+// select field by clicking on it
+
+//docs
 
 // what is null?
 // what is NaN - not a number
