@@ -90,6 +90,31 @@ var model = {
       } while (this.collision(locations));
       this.ships[i].locations = locations;
     }
+  },
+
+  generateShip: function() {
+    var direction = Math.floor(Math.random() * 2);
+    var row, col;
+
+    if (direction === 1) {
+      //Generate a starting location for a horizontal shio
+      row = Math.floor(Math.random() * this.boardSize);
+      col = Math.floor(Math.random() * (this.boardSize - this.shipLength));
+    } else {
+      // Generate a starting location for vertical ship
+      row = Math.floor(Math.random() * (this.boardSize - this.shipLength));
+      col = Math.floor(Math.random() * this.boardSize);
+    }
+
+    var newShipLocations = [];
+    for (var i - 0; i < this.shipLength; i++) {
+      if (direction === 1) {
+        //add location to array for new horizontal ship
+      } else {
+        // add location to arraz for new vertical ship
+      }
+    }
+    return newShipLocations;
   }
 };
 
